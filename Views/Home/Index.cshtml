@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="appTitle">
+        <h1 id="appTitle">Assignment 1 - Aum Soni</h1>
+        <p class="lead">This website facilitates the management of concert hall venue information through Create, Read, Update, and Delete (CRUD) operations.</p>
+    </section>
+
+    <div class="row mt-5">
+        <section class="col-md-6" aria-labelledby="whatILearned">
+            <h2 id="whatILearned">I learned ...</h2>
+            <p>I learned how to perform basic CRUD operations using ASP.NET Framework and C# with the help of Models, Views, and Controllers (MVC). To get started, we first create models for a specific type of operation, like "Get All." For this, we create a VenueBaseViewModel and copy all the properties from the design view model into it. Next, we need to access our database to perform the "Get All" operation. To do this, we create a method in the Manager class that has access to the database. After creating the "Get All" method in the Manager and configuring the mapping, we create a controller with the necessary methods and customize it for the desired operation. Finally, we create a view by right-clicking on the controller method, and in the end, we've successfully implemented the "Get All" operation. And same actons we did for all other CRUD Opeations.</p>
+        </section>
+        <section class="col-md-6" aria-labelledby="whatIStruggledWith">
+            <h2 id="whatIStruggledWith">I struggled with ...</h2>
+            <p>I found the second lecture in Week 2, where you explained the GetOne, GetAll, and Create CRUD operations, very helpful and well-explained. Implementing those operations was quite straightforward, thanks to your clear instructions. However, I did face a bit of confusion while working on the edit method, where we needed two view model classes, one for displaying on the browser and another for performing the update operation. The delete operation, on the other hand, was easier to understand as we didn't need a view model for it since we're simply deleting data.</p>
+        </section>
+    </div>
+</main>
